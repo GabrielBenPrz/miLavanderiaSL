@@ -1,0 +1,115 @@
+body {
+
+    background: rgb(229, 226, 226);
+}
+
+
+.divArriba>img {
+    width: 100%;
+}
+
+.divProducto {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0.8cm;
+    align-items: center;
+    padding: 20px;
+
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#idProducto {
+    flex: 1;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+#idProducto>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2cm;
+}
+
+.producto {
+    width: 25%;
+    transition: background-color 0.3s ease;
+    margin: 1%;
+    display: inline-block;
+    border-radius: 10px;
+    /* Ajusta este valor según tu preferencia */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.producto:hover {
+    background-color: #c0c0c0;
+    /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.divCarrito {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    font-size: 0.8cm;
+    height: auto;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+
+}
+
+.divTotal {
+    text-align: center;
+}
+
+#buttonC {
+    background-color: rgba(125, 212, 154, 0.794);
+    ;
+    color: rgb(6, 50, 18);
+    ;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#buttonC:hover {
+    background-color: #cc1313;
+}
+
+.del-button-style {
+    background-color: rgba(125, 212, 154, 0.794);
+    ;
+    color: rgb(6, 50, 18);
+    ;
+    padding: 10px 20px;
+    display: flex;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.del-button-style:hover {
+    background-color: #cc1313;
+    ;
+}
+
+
+#listaCarrito {
+    border-radius: 10px;
+    /* Ajusta este valor según tu preferencia */
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+
+}
