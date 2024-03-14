@@ -1,0 +1,80 @@
+
+body {
+    width: 100%;
+    background-image: url(/assets/backgroundsabana.jpg);
+    background-size: cover;
+}
+
+.contenedor {
+    position: relative;
+    width: 120%;
+    height: 500px;
+    background-image: url(/assets/portadaquienessomos.jpg);
+    background-size:cover;
+    border-style: outset;
+ 
+}
+
+.contenedor h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    position: absolute;
+        top: 70%;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        color: rgb(47, 53, 214);
+        background-image: url(/assets/backgroundsabana.jpg);
+        border-style: dotted;
+        border-color: rgb(36, 145, 91);
+        padding: 20px;
+}
+
+
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    display: flex;
+    margin: 100px;
+    color: rgb(47, 53, 214);
+   
+}
+
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-left: 100px;
+    color: rgb(47, 53, 214);
+}
+
+span h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(23, 9, 9);
+}
+
+.redessociales {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.redessociales:hover {
+   opacity: 30%;
+}
+.photoindlaundry {
+    align-content: center;
+    height: 300px;
+    width: auto;
+    margin: 50px;
+   border: 10px;
+   border-style:groove;
+   border-color: rgb(74, 77, 177);
+    
+}
+
+.photoindlaundry:hover {
+opacity: 70%;
+
+}
+
